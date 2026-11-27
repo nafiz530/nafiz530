@@ -1,6 +1,10 @@
 name: Refresh profile cards
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/cards.*.svg"
   schedule:
     - cron: "17 3 * * 1"
   workflow_dispatch:
