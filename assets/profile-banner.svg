@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Md. Nafiz — Developer, Engineer in the Making</title>
+  <desc id="desc">A deep navy technical banner with a bright blue and orange abstract orbital circuit motif.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.58" stop-color="#101e35"/>
+      <stop offset="1" stop-color="#142b46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#ff9d42"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#9bb8dc" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2f81f7" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#2f81f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="480" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="480" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1290" cy="230" rx="430" ry="330" fill="url(#glow)"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2.2" opacity=".72">
+    <circle cx="1270" cy="238" r="146"/>
+    <ellipse cx="1270" cy="238" rx="245" ry="92" transform="rotate(-28 1270 238)"/>
+    <ellipse cx="1270" cy="238" rx="245" ry="92" transform="rotate(48 1270 238)"/>
+    <path d="M1085 105h-78v58h-50M1422 120h70v64h48M1430 354h-75v-55h-55M1090 362h-66v-68h-54"/>
+  </g>
+  <g fill="#58a6ff">
+    <circle cx="1007" cy="105" r="5"/><circle cx="1540" cy="184" r="5"/>
+    <circle cx="1355" cy="299" r="5"/><circle cx="970" cy="294" r="5"/>
+  </g>
+  <g fill="#ff9d42">
+    <circle cx="1270" cy="92" r="7"/><circle cx="1410" cy="300" r="6"/><circle cx="1125" cy="338" r="5"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="112" y="166" fill="#8abfff" font-size="23" font-weight="700" letter-spacing="6">DEVELOPER  /  ENGINEER IN THE MAKING</text>
+    <text x="105" y="265" fill="#f0f6fc" font-size="86" font-weight="750" letter-spacing="-3">Md. Nafiz</text>
+    <text x="112" y="322" fill="#c6d5e5" font-size="27" font-weight="400">Turning curiosity into useful things.</text>
+    <path d="M112 366h112" stroke="url(#accent)" stroke-width="6" stroke-linecap="round"/>
+    <text x="112" y="414" fill="#91a8c3" font-size="18" letter-spacing="3">RAJSHAHI, BANGLADESH  ·  ALWAYS BUILDING, ALWAYS LEARNING</text>
+  </g>
+</svg>
