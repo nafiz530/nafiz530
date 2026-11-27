@@ -90,22 +90,14 @@ A couple of public repositories that show different sides of what I enjoy buildi
 
 ## GitHub at a glance
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nafiz530&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub statistics for Md. Nafiz" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nafiz530&layout=compact&hide_border=true&theme=transparent" alt="Most used programming languages" />
-  <br />
-  <img src="https://streak-stats.demolab.com?user=nafiz530&hide_border=true&theme=transparent" alt="GitHub contribution streak statistics" />
-</div>
+The cards below are generated from GitHub's GraphQL data by a scheduled GitHub Actions workflow and stored in this repository. That keeps the visualizations under my control instead of relying on a public stats-image server.
 
-## Contribution activity
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards.dark.svg" />
+  <img src="assets/cards.light.svg" alt="GitHub overview, contribution history, language composition, activity rhythm, and repository activity for Md. Nafiz" width="100%" />
+</picture>
 
-<div align="center">
-  <img src="https://ghchart.rshah.org/40916c/nafiz530" alt="GitHub contribution calendar for Md. Nafiz" width="100%" />
-  <br />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nafiz530&bg_color=00000000&color=58a6ff&line=2f81f7&point=ff9d42&area=true&hide_border=true" alt="GitHub activity graph for Md. Nafiz" width="100%" />
-</div>
-
-<sub>These visualizations are generated from public GitHub activity and may take time to refresh. GitHub's own contribution calendar remains the source of truth.</sub>
+<sub>Cards refresh automatically every Monday. You can also run the workflow manually from the Actions tab.</sub>
 
 ## Beyond code
 
