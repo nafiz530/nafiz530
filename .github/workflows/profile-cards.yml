@@ -1,0 +1,33 @@
+name: Refresh profile cards
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate profile statistics and activity cards
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: nafiz530
+          cards: overview,contributions,languages,rhythm,repositories
+          layout: combined
+          output-dir: assets
+          themes: light,dark
+          palette: blue
+          commit: true
+          commit-message: "chore(profile): refresh statistics and activity cards [skip ci]"
