@@ -18,7 +18,7 @@
   <p>
     <a href="https://github.com/nafiz530">GitHub</a> ·
     <a href="https://github.com/nafiz530?tab=repositories">Repositories</a> ·
-    <a href="https://github.com/nafiz530?tab= 활동">Activity</a>
+    <a href="https://github.com/nafiz530">Activity</a>
   </p>
 </div>
 
